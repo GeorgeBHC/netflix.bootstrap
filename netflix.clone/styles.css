@@ -1,10 +1,22 @@
 body {
-    background-image: url('netflix.jpg');
+    background-color: black;
+    height: 100%;
+    overflow-x: hidden;
+}
+ 
+
+.up-part {
+    background-image: url('pictures/netflix.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    height: 700px;
+   
 }
 
+.main {
+    background-color: black;
+}
 
 .submit {
     background-color: red;
@@ -25,7 +37,7 @@ body {
     padding-right: 80px;
 }
 
-.navbar-brand {
+.netflix {
     color: red;
 }
 
@@ -33,18 +45,78 @@ body {
 .info1 {
     color: white;
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 3rem;
     line-height: 1.2;
     letter-spacing: 0.01rem;
+    margin-top: 100px;
 }
 
 .info2 {
     color: white;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     line-height: 1.6;
+    text-align: center;
 }
 
 .email {
     opacity: 0.5 ;
     border-radius: 5px;
 }
+
+
+
+.card1{
+ display: block;
+ color: white;
+ text-align: center;
+ margin-top: 150px;
+ font-size: 20px;
+}
+
+.card2 {
+    display: block;
+}
+
+
+.card3 {
+       display: block;
+   }
+
+
+
+.card4{
+    display: block;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 20px;
+   }
+   
+ .card5{
+    display: block;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 20px;
+   }
+   
+   
+.card6 {
+       display: block;
+   }
+
+
+.card7 {
+    display: block;
+}
+
+
+
+.card8{
+ display: block;
+ color: white;
+ text-align: center;
+ margin-top: 150px;
+ font-size: 20px;
+}
+
